@@ -36,6 +36,17 @@ They replace rewatching the video. I've already watched each lecture once, so I 
 - If the instructor relies on a slide, drawing or code on screen that the transcript doesn't capture, leave a marker: `[check video ~mm:ss: what to look at]` (or without a time if the transcript has no timestamps).
 - Auto-captions garble technical terms. Fix them silently from context and don't mention the fixes in the note. If a spot is genuinely ambiguous, mention it in the chat reply, not inside the note.
 
+## Screenshots
+
+When I attach a screenshot from the video, it's because I want it in the note. I won't attach everything, so if I send one, use it.
+
+- Save it in `notes/images/`, never loose in `notes/`. Pasted screenshots arrive as `image.png`, so rename them right away to avoid collisions.
+- Name format: `NN-short-topic.png`, where `NN` is the lecture number and the rest describes what the image shows (e.g. `03-pretraining-finetuning-schematic.png`). If a lecture needs two images of the same thing, add a suffix like `-2`.
+- Embed it with a relative link and real alt text, not "alt text": `![what it shows](images/03-pretraining-finetuning-schematic.png)`.
+- Place it under the matching `[check video ~mm:ss: ...]` marker. Match the image to the right marker by its content, and if the timestamp in the screenshot or the existing marker looks off, tell me in the chat reply.
+- Keep the marker next to the image so I can still jump to that point in the video. If the image fully replaces what the marker pointed to, the marker can stay as the timestamp reference.
+- Screenshots often contain the instructor's handwriting or slide text. Describe the key labels in the note's own text too when that helps, so the note still makes sense if the image is skipped.
+
 ## Files
 
 - One markdown file per lecture, numbered: `01-series-introduction.md`, `08-gpt-tokenizer-bpe.md`, etc.
