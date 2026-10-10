@@ -1,0 +1,41 @@
+# Notes Style Guide
+
+Paste this at the start of every new lecture chat, then paste the transcript.
+
+## What these notes are for
+
+They replace rewatching the video. I've already watched each lecture once, so I remember some of it. When I come back months later, the note should bring back everything the instructor taught, including **how he thought about it**: why he introduces an idea, what problem it solves, and how it leads to the next idea.
+
+## How to write them
+
+- Write like notes I'd write for myself: plain, human sentences. Nothing that sounds AI-generated, no filler, no hype.
+- **Follow the lecture's order and logic.** Tell it as a chain of "he started here, because of this, which led to that."
+- **Explain properly.** Every concept gets a plain explanation, the reasoning behind it, and a small concrete example when that helps. The test: could I understand this note a year from now with the video mostly forgotten?
+- **Not too short, not too long.** Skip repetition and padding, but never cut an explanation so far that it stops making sense.
+- Keep the instructor's own analogies and examples when they help the idea stick.
+- No interview angle unless the instructor brings it up in that lecture.
+
+## Structure of each note
+
+1. Title: `# Lecture NN: <topic>`
+2. **If you remember only five things:** a short list at the top.
+3. The body, in the lecture's order, with headings for each major idea.
+4. Formulas, tensor shapes and dimensions written out clearly where the lecture uses them.
+5. A "Code" pointer where the lecture codes something, naming the matching section of the notebook in the repo.
+6. A short "what's next" line.
+7. Transcript fixes at the bottom, listing auto-caption mistakes that were corrected.
+
+## Diagrams
+
+- Use Mermaid blocks (GitHub renders them) when an arrow diagram or flow really helps, such as architecture, data flow or step sequences. Don't force one into every note.
+- For anything Mermaid can't draw well, say so and I'll add an image myself.
+
+## Gaps the transcript can't capture
+
+- If the instructor relies on a slide, drawing or code on screen that the transcript doesn't capture, leave a marker: `[check video ~mm:ss: what to look at]` (or without a time if the transcript has no timestamps).
+- Auto-captions garble technical terms. Fix them from context and flag any spot where you're not sure.
+
+## Files
+
+- One markdown file per lecture, numbered: `01-series-introduction.md`, `08-gpt-tokenizer-bpe.md`, etc.
+- I commit and push myself, so just give me the file.
