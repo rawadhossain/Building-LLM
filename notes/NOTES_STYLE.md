@@ -31,6 +31,16 @@ They replace rewatching the video. I've already watched each lecture once, so I 
 - Use Mermaid blocks (GitHub renders them) when an arrow diagram or flow really helps, such as architecture, data flow or step sequences. Don't force one into every note.
 - For anything Mermaid can't draw well, say so and I'll add an image myself.
 
+## Going beyond the transcript
+
+The notes don't have to be limited to what the instructor says. If something outside the lecture explains an idea better, add it.
+
+- **What to add:** a clearer explanation, a better analogy, a more precise or corrected fact, a diagram that makes the idea click, or a link to a good outside resource (the original paper, a well-known visual explainer).
+- **Keep it clearly separate from the lecture content.** Put additions in a labeled block, e.g. a blockquote starting with `> **Extra:**`, so I can always tell what the lecture said from what was added. If the lecture says something imprecise or wrong, correct it in a labeled note and don't silently change the lecture's content.
+- **Verify before adding factual claims.** Check them (web search where needed) and link the source.
+- **Diagrams:** create my own. Mermaid inline when it works, otherwise an SVG saved in `notes/images/` (named like the screenshots, e.g. `04-transformer-flow.svg`). I can't download images from the web into the workspace, and copying other people's images isn't appropriate anyway, so for a good third-party image or diagram, link to the page and say in one line what to look at.
+- **Keep the notes the right size.** Add only when it really helps. The notes should still read as one clear lecture, not a pile of extras.
+
 ## Gaps the transcript can't capture
 
 - If the instructor relies on a slide, drawing or code on screen that the transcript doesn't capture, leave a marker: `[check video ~mm:ss: what to look at]` (or without a time if the transcript has no timestamps).
