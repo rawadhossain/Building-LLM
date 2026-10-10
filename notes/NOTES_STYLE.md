@@ -14,6 +14,7 @@ They replace rewatching the video. I've already watched each lecture once, so I 
 - **Not too short, not too long.** Skip repetition and padding, but never cut an explanation so far that it stops making sense.
 - Keep the instructor's own analogies and examples when they help the idea stick.
 - No interview angle unless the instructor brings it up in that lecture.
+- **Write about the topic, not the instructor.** No "he says", "he explains", "he admits", "his definition". I know who taught it. State the ideas directly (e.g. "An LLM is a neural network that...", not "His simplest definition is..."). Still follow the lecture's order and keep its analogies and examples, just without attributing them to the speaker.
 
 ## Structure of each note
 
@@ -21,9 +22,9 @@ They replace rewatching the video. I've already watched each lecture once, so I 
 2. **If you remember only five things:** a short list at the top.
 3. The body, in the lecture's order, with headings for each major idea.
 4. Formulas, tensor shapes and dimensions written out clearly where the lecture uses them.
-5. A "Code" pointer where the lecture codes something, naming the matching section of the notebook in the repo.
+5. A "Code" section, only when the lecture codes something. It links to the matching notebook in the repo with a relative markdown link (e.g. `[1-llmscratch.ipynb](../1-llmscratch.ipynb)`, since notes live in `notes/`) and names the section heading to look for inside the notebook. GitHub can't jump to a section within a notebook, so the link opens the notebook and the named section tells me where to scroll. Skip this section for theory-only lectures.
 6. A short "what's next" line.
-7. Transcript fixes at the bottom, listing auto-caption mistakes that were corrected.
+7. No "transcript fixes" section. Fix caption errors silently.
 
 ## Diagrams
 
@@ -33,7 +34,7 @@ They replace rewatching the video. I've already watched each lecture once, so I 
 ## Gaps the transcript can't capture
 
 - If the instructor relies on a slide, drawing or code on screen that the transcript doesn't capture, leave a marker: `[check video ~mm:ss: what to look at]` (or without a time if the transcript has no timestamps).
-- Auto-captions garble technical terms. Fix them from context and flag any spot where you're not sure.
+- Auto-captions garble technical terms. Fix them silently from context and don't mention the fixes in the note. If a spot is genuinely ambiguous, mention it in the chat reply, not inside the note.
 
 ## Files
 

@@ -86,5 +86,3 @@ This is the part to remember for later. If you've only deployed apps by cloning 
 Lecture 02 covers the introduction to large language models, using the whiteboard notes he showed at the end of this lecture.
 
 ---
-
-_Transcript fixes: "viua" = Vizuara, "Elisa" = ELIZA, "Lama" = Llama, "Andre karpat" = Andrej Karpathy, "rashka" = Raschka._
